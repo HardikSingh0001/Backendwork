@@ -23,19 +23,19 @@
 // config  84.00 KiB
 // local   72.00 KiB
 // test    40.00 KiB
-// test> use krishna
-// switched to db krishna
-// krishna>  db.myCollection.insertOne({x:1})
+// test> use Hardik
+// switched to db Hardik
+// Hardik>  db.myCollection.insertOne({x:1})
 // {
 //   acknowledged: true,
 //   insertedId: ObjectId('66d00cf881ac3678922710bc')
 // }
-// krishna> db.myCollection.insertOne({date: ISODate()})
+// Hardik> db.myCollection.insertOne({date: ISODate()})
 // {
 //   acknowledged: true,
 //   insertedId: ObjectId('66d00d1681ac3678922710bd')
 // }
-// krishna> db.myCollection.find()
+// Hardik> db.myCollection.find()
 // [
 //   { _id: ObjectId('66d00cf881ac3678922710bc'), x: 1 },
 //   {
@@ -43,8 +43,8 @@
 //     date: ISODate('2024-08-29T05:54:30.001Z')
 //   }
 // ]
-// krishna> db.myCollection.insertMany([
-//     ...   { name: "Krishna Sharma" },
+// Hardik> db.myCollection.insertMany([
+//     ...   { name: "Hardik Sharma" },
 //     ...   { rollNo: "221" },
 //     ...   { hobby: "Football" },
 //     ...   { Course: "CSE" }
@@ -58,26 +58,26 @@
 //         '3': ObjectId('66d0104e81ac3678922710c1')
 //       }
 //     }
-//     krishna> db.myCollection.find()
+//     Hardik> db.myCollection.find()
 //     [
 //       { _id: ObjectId('66d00cf881ac3678922710bc'), x: 1 },
 //       {
 //         _id: ObjectId('66d00d1681ac3678922710bd'),
 //         date: ISODate('2024-08-29T05:54:30.001Z')
 //       },
-//       { _id: ObjectId('66d0104e81ac3678922710be'), name: 'Krishna Sharma' },
+//       { _id: ObjectId('66d0104e81ac3678922710be'), name: 'Hardik Sharma' },
 //       { _id: ObjectId('66d0104e81ac3678922710bf'), rollNo: '221' },
 //       { _id: ObjectId('66d0104e81ac3678922710c0'), hobby: 'Football' },
 //       { _id: ObjectId('66d0104e81ac3678922710c1'), Course: 'CSE' }
 //     ]
-//     krishna> db.myCollection.find().pretty()
+//     Hardik> db.myCollection.find().pretty()
 //     [
 //       { _id: ObjectId('66d00cf881ac3678922710bc'), x: 1 },
 //       {
 //         _id: ObjectId('66d00d1681ac3678922710bd'),
 //         date: ISODate('2024-08-29T05:54:30.001Z')
 //       },
-//       { _id: ObjectId('66d0104e81ac3678922710be'), name: 'Krishna Sharma' },
+//       { _id: ObjectId('66d0104e81ac3678922710be'), name: 'Hardik Sharma' },
 //       { _id: ObjectId('66d0104e81ac3678922710bf'), rollNo: '221' },
 //       { _id: ObjectId('66d0104e81ac3678922710c0'), hobby: 'Football' },
 //       { _id: ObjectId('66d0104e81ac3678922710c1'), Course: 'CSE' }
